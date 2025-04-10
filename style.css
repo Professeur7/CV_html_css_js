@@ -5,6 +5,49 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.body_accueil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* overflow-x: hidden; */
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.main_accueil{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.voir-cv{
+    padding: 10px 20px;
+    background: #0a0a0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#lien{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 body{
     width: 100%;
     height: 100%;
